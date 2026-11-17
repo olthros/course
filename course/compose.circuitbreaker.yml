@@ -1,0 +1,4 @@
+services:
+  enrollment-service:
+    ports:
+      - "127.0.0.1:${CIRCUITBREAKER_PORT:-18083}:8083"
