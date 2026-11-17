@@ -1,5 +1,0 @@
-services:
-  catalog-service:
-    ports: !reset []
-    environment:
-      LOGGING_LEVEL_ORG_SPRINGFRAMEWORK_WEB: DEBUG
